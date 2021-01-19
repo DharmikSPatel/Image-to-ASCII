@@ -5,3 +5,6 @@ Example: Converting my baby picture to ASCII
 <p align="left">
   <img src="ScreenShot.png" width="1000" title="Me as a baby">
 </p>
+<p align="left">
+  <img src="ScreenShot 2.png" width="1000" title="Me as a teen">
+</p>
