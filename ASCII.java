@@ -173,7 +173,6 @@ public class ASCII extends JPanel implements ActionListener, AdjustmentListener{
 			fc.setFileFilter(filter);
 			if(fc.showSaveDialog(null)==JFileChooser.APPROVE_OPTION){
 				File file = fc.getSelectedFile();
-
 				try{
 					String st=file.getAbsolutePath();
 					if(!st.contains(".txt"))
@@ -186,6 +185,7 @@ public class ASCII extends JPanel implements ActionListener, AdjustmentListener{
 				}
 			}
 		}
+		
 	}
 
 	public void actionPerformed(ActionEvent e){
